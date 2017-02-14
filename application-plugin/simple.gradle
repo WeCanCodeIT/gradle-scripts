@@ -1,1 +1,5 @@
 apply plugin: 'application'
+
+if(project.hasProperty('app')) {
+	run.mainClassName = app
+}
