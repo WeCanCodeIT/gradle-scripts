@@ -1,0 +1,17 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	testCompile 'org.hamcrest:hamcrest-all:1.+',
+		'org.mockito:mockito-core:1.+',
+		'junit:junit:4.+'
+}
+
+configurations {
+	all*.exclude module: 'hamcrest-core'
+	all*.exclude module: 'mockito-all'
+}
