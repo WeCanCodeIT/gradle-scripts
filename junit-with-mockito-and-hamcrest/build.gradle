@@ -15,3 +15,16 @@ configurations {
 	all*.exclude module: 'hamcrest-core'
 	all*.exclude module: 'mockito-all'
 }
+
+task buildSrcFolders {
+
+	description 'Builds default source folders'
+
+	doLast {
+		mkdir("src/main/java")
+		mkdir("src/test/java")
+	}
+}
+
+tasks.eclipse.dependsOn buildSrcFolders
+
