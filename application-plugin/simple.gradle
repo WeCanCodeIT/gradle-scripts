@@ -1,5 +1,7 @@
 apply plugin: 'application'
 
-if(project.hasProperty('app')) {
-	run.mainClassName = app
+run {
+	if(project.hasProperty('app')) {
+		mainClassName = app
+	}	
 }
