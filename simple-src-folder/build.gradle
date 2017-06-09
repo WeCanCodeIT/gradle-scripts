@@ -1,0 +1,11 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+	jcenter()
+}
+
+sourceSets {
+    main.java.srcDirs = ['src']
+    test.java.srcDirs = ['test']
+}
