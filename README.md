@@ -21,4 +21,4 @@
 
 Pulling a build for a project with a simple `src` (and optionally `test`) folder:
 
-	`curl https://raw.githubusercontent.com/WeCanCodeIT/gradle-scripts/master/simple-src-folder/build.gradle --output build.gradle`
+`curl https://raw.githubusercontent.com/WeCanCodeIT/gradle-scripts/master/simple-src-folder/build.gradle --output build.gradle`
