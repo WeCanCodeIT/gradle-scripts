@@ -16,3 +16,9 @@
 		
 1. Run `gradle eclipse` to set up your Eclipse project. These scripts contain a custom task that will automagically create your standard source folders, `src/main/java` (for production code) and `src/test/java` (for tests).
 1. Import the project into your workspace (`File->Import…->General/Existing Projects into Workspace`)
+
+## For instructors:
+
+Pulling a build for a project with a simple `src` (and optionally `test`) folder:
+
+	`curl https://raw.githubusercontent.com/WeCanCodeIT/gradle-scripts/master/simple-src-folder/build.gradle --output build.gradle`
