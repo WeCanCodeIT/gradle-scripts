@@ -6,14 +6,11 @@ repositories {
 }
 
 dependencies {
-	testCompile 'org.hamcrest:hamcrest-all:1.+',
-		'org.mockito:mockito-core:1.+',
-		'junit:junit:4.+'
-}
-
-configurations {
-	all*.exclude module: 'hamcrest-core'
-	all*.exclude module: 'mockito-all'
+	testCompile 'junit:junit:4.+',
+		'org.hamcrest:hamcrest-core:1.+',
+		'org.hamcrest:hamcrest-library:1.+',
+		'org.mockito:mockito-core:2.+',
+		'org.assertj:assertj-core:3.+'
 }
 
 task buildSrcFolders {
