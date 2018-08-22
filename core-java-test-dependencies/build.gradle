@@ -1,0 +1,27 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.+',
+		'org.hamcrest:hamcrest-core:1.+',
+		'org.hamcrest:hamcrest-library:1.+',
+		'org.mockito:mockito-core:2.+',
+		'org.assertj:assertj-core:3.+'
+}
+
+task buildSrcFolders {
+
+	description 'Builds default source folders'
+
+	doLast {
+		mkdir("src/main/java")
+		mkdir("src/test/java")
+	}
+}
+
+tasks.eclipse.dependsOn buildSrcFolders
+
