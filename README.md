@@ -21,6 +21,9 @@
 
 	`curl https://raw.githubusercontent.com/WeCanCodeIT/gradle-scripts/master/junit5-test-dependencies/build.gradle --output build.gradle`
 
+1. Open IntelliJ and select `Open` from the `File` menu or the 'Welcom to IntelliJ IDEA' window.  Navigate to the folder that you created in the Git Bash terminal, select the build.gradle file, click `OK`, and select open as project.
+1. In the `Project` window right click on the project folder at the top and select `New`-> `Directory`, and select `src/main/java` from the 'Gradle Source Sets.  Do the same for `src/test/java`.
+
 ## For instructors:
 
 Pulling a build for a project with a simple `src` (and optionally `test`) folder:
