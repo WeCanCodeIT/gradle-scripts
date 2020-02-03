@@ -1,6 +1,6 @@
 # Gradle build scripts
 
-## For students using Eclipse and JUnit 4: setting up a new project
+## For FlexCode students using Eclipse and JUnit 4: setting up a new project
 
 1. Open your Git Bash terminal (or bash on *other* OSes).
 1. Create a folder for your project (suggested location is within the `code` folder).
@@ -12,7 +12,7 @@
 1. Run `gradle eclipse` to set up your Eclipse project. These scripts contain a custom task that will automagically create your standard source folders, `src/main/java` (for production code) and `src/test/java` (for tests).
 1. Import the project into your workspace (`File->Import…->General/Existing Projects into Workspace`)
 
-## For students using IntelliJ and JUnit 5: setting up a new project
+## For in-person students using IntelliJ and JUnit 5: setting up a new project
 
 1. Open your Git Bash terminal (or bash on *other* OSes).
 1. Create a folder for your project (suggested location is within the `code` folder).
