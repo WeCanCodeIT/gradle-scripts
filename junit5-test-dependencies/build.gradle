@@ -15,6 +15,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.+'
 	testCompile 'org.assertj:assertj-core:3.+'
 	testCompile 'org.mockito:mockito-core:2.+'
+	testCompile 'org.hamcrest:hamcrest:2.2'
 }
 
 test {
